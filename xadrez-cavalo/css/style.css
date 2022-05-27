@@ -1,0 +1,168 @@
+#Xadrez{
+    width: 50px;
+    height: 50px;
+    left: 69px;
+    top: 2px;
+    position: absolute;
+    z-index: -2;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.Cavalin{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 65px;
+    animation: lados 15s;
+}
+
+
+.xadrez-tabuleiro{
+    border: 1px;
+    height: 600px;
+    width: 560px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 8px rgb(0 0 0 / 65%);
+    background: #ffffff;
+    z-index: -2;
+}
+
+
+.preto {
+    background: #d33434;
+}
+
+.quadrado {
+    height: 75px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+@keyframes lados{
+    0%{
+        top: 5px;
+        left: 80px;
+    }
+
+    5%{
+        top: 80px;
+        left: 80px;
+    }
+
+    10%{
+        top: 160px;   
+        left: 80px;
+    }
+
+    15%{
+        top: 160px;
+        left: 150px;
+    }
+
+    20%{
+        top: 240px;
+        left: 150px;
+    }
+
+    25%{
+        top: 320px;
+        left: 150px;
+    }
+
+    30%{
+        top: 320px;
+        left: 80px;
+    }
+
+    35%{
+        top: 400px;
+        left: 80px;
+    }
+
+    40%{
+        top: 471px;
+        left: 80px;
+    }
+
+    45%{
+        top: 471px;
+        left: 155px;
+    }
+    48%{
+        top: 471px;
+        left: 227px;
+    }
+
+    50%{
+        top: 552px;
+        left: 227px;
+    }
+
+    53%{
+        top: 471px;
+        left: 227px;
+    }
+
+    56%{
+        top: 471px;
+        left: 155px;
+    }
+
+    62%{
+        top: 471px;
+        left: 80px;
+    }
+
+    68%{
+        top: 400px;
+        left: 80px;
+    }
+
+    73%{
+        top: 320px;
+        left: 80px;
+    }
+
+    79%{
+        top: 320px;
+        left: 150px;
+    }
+
+    83%{
+        top: 240px;
+        left: 150px;
+    }
+
+    87%{
+        top: 160px;
+        left: 150px;
+    }
+
+    91%{
+        top: 160px;   
+        left: 80px;
+    }
+
+    95%{
+        top: 80px;
+        left: 80px;
+    }
+
+    100%{
+        top: 5px;
+        left: 80px;
+    }
+}
+
